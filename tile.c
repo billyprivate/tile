@@ -1137,7 +1137,7 @@ static void printprolog()
 			"	c 23.613 18.349 23.52 17.779 23.469 17.654 c 23.406 17.509 23.199 17.509\n"
 			"	23.09 17.677 c 22.938 17.923 22.836 18.126 22.832 18.267 c h f\n"
 			"	grestore\n"
-			"} bind def\n\n");
+			"} bind def\n\n")
 
 	printf( "%%%%EndProlog\n\n");
 	printf( "%%%%BeginSetup\n");
