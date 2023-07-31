@@ -819,7 +819,7 @@ static void printprolog()
 	        "	(, %s ) show\n", LangPrompt( "column" ) );
 	printf( "	colcount strg cvs show\n"
 	        "	pagewidth 69 sub clipmargin labelsize add neg botmargin add moveto\n"
-	        "	(freesewing.org ) show\n" );
+	        "	(fb.com/fashiondesignermotaz ) show\n" );
 	if( alignment )
 	{
 		if( rotate ) {
@@ -905,7 +905,7 @@ static void printprolog()
 	printf( "	( %s ) show\n", LangPrompt( "cover page" ));
 	printf(	"	leftmargin clipmargin 3 mul add pageheight 10 add moveto\n"
           	"	/Helvetica findfont 24 scalefont setfont\n"
-	        "	(FreeSewing) show\n"
+	        "	(Motaz Designer) show\n"
 	        "	leftmargin clipmargin 3 mul add pageheight 5 sub moveto\n"
           	"	/Helvetica findfont 11 scalefont setfont\n" );
 	printf( "	(Come for the sewing patterns. Stay for the community.) show\n");
@@ -920,7 +920,7 @@ static void printprolog()
 	        "	0 setgray\n"
           	"	/Helvetica findfont labelsize scalefont setfont\n"
 	        "	pagewidth 69 sub clipmargin labelsize add neg botmargin add moveto\n"
-	        "	(freesewing.org ) show\n"
+	        "	(fb.com/fashiondesignermotaz ) show\n"
 	        "	leftmargin clipmargin 3 mul add pageheight 70 sub moveto\n"
 	        "	pagewidth clipmargin 2 mul add pageheight 70 sub lineto stroke\n"
 	        "	gsave\n"
